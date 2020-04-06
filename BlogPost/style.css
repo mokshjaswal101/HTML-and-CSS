@@ -1,4 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+}
+.container{
+    width: 1140px;
+    margin: 20px auto 0 auto ;
+}
+
 h1 {
     color: green;
     font-size: 50px;
+    font-family: Helvetica, Arial;
+    margin-bottom: 20px ;
+}
+
+h2 {
+    color: green;
+    font-size: 25px;
+    font-family: Helvetica, Arial;
+    margin-bottom: 10px;
+}
+
+.main {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-size: 22px;
+}
+.blogpost{
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+}
+.other{
+    width: 25%;
+    float: left;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
 }
