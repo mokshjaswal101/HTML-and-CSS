@@ -7,16 +7,17 @@
 body {
     font-size: 18px;
 }
-.container{
+
+.container {
     width: 1140px;
-    margin: 20px auto 0 auto ;
+    margin: 20px auto 0 auto;
 }
 
 h1 {
     color: green;
     font-size: 50px;
     font-family: Helvetica, Arial;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -33,18 +34,50 @@ h2 {
 
 .author {
     font-size: 22px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
 }
-.blogpost{
+
+.blogpost {
     width: 75%;
     float: left;
     padding-right: 30px;
+    position: relative;
 }
-.other{
+
+.other {
     width: 25%;
     float: left;
 }
-.clearfix:after{
+
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.author-box {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.author-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+.blogpost img{
+    height: 150px;
+    width: auto;
+}
+.date{
+    position: absolute;
+    top: 10px;
+    right: 30px;
 }
