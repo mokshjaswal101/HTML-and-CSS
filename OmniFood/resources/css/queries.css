@@ -1,0 +1,32 @@
+
+
+/* big tavblets to 1200 px: from 1023 to 1200 */
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 20;
+    }
+    .row{
+        padding: 0 20;
+    }
+}
+
+/* Small tablets to big tablets: from 768 to 1023px */
+@media only screen and (max-width:1023px){
+    body{
+        font-size: 18px;
+    }
+    .section{
+        padding: 60px 0;
+    }
+}
+
+/* Small phones to small tablets: from 400 to 767px */
+@media only screen and (max-width:767px){
+    
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width:480px){
+
+}

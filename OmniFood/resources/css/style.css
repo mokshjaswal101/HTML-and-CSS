@@ -166,7 +166,7 @@ input[type=submit]:active {
 }
 
 .btn-full:hover,
-.btn-full:active,
+.btn-full:active
     {
     border: 1px solid #e67e22;
     color: #fff;
@@ -484,4 +484,80 @@ input[type = checkbox]{
 
 *:focus{
     outline: none;
+}
+
+/* --------------------------------*/
+/* Footer */
+/* --------------------------------*/
+
+footer{
+    background-color: rgb(22, 22, 22);
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px ;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin: 0px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    border: 0;
+    color:rgb(114, 114, 114); 
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: rgb(185, 185, 185);
+    transition: color 0.2s;
+}
+
+.social-links li a:active,
+.social-links li a:visited{
+    font-size: 170%;
+}
+
+.ion-social-facebook,
+.ion-social-googleplus,
+.ion-social-instagram,
+.ion-social-twitter{
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover{
+    color: #3b5998;
+}
+.ion-social-twitter:hover{
+    color: #00aced;
+}
+.ion-social-googleplus:hover{
+    color: #dd4b39;
+}
+.ion-social-instagram:hover{
+    color: #517fa4;
+}
+
+footer p{
+    color:rgb(114, 114, 114); 
+    text-align: center;
+    margin-top: 20px;
 }
